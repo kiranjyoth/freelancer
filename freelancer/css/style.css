@@ -1,0 +1,59 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+.navbar-fixed-top {
+	background-color: #2c3e50;
+}
+.navbar-default .navbar-brand {
+
+	color:#ffffff;
+}
+.navbar-default .navbar-nav>li>a {
+	color:#ffffff;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	color: #18bc9c;
+	background-color: transparent;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+	color: #ffffff;
+	background-color: #1a242f;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+
+	color: #18bc9c;
+	background-color: transparent;
+}
+
+.panel-responsive .rld-span-standard_12 {
+	width:100%;
+	padding: 0;
+}
+
+.node-type-article #page-header, .page-blog #page-header {
+	margin-bottom: 200px;
+}
+
+.alert, .alert-block,  .alert-success{
+
+	margin-top: 120px;
+}
+
+.page-blog .col-md-4{
+	margin-bottom: 40px;
+	
+}
+
+.page-blog .wrapper {
+
+	border: 1px solid #BDC3C7;
+	min-height: 600px;
+	background-color: #ECF0F1
+}
+
+.page-blog h3, p {
+	padding-left: 20px;
+	padding-right: 20px;
+}
