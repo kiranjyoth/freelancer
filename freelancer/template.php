@@ -10,18 +10,20 @@
  */
 function freelancer_preprocess_page(&$vars) {
   // if this is a panel page, add template suggestions
+  if(isset($panel_page)){
   if($panel_page = page_manager_get_current_page()) {
-     
+
       // add a generic suggestion for all panel pages
       $vars['theme_hook_suggestions'][] = 'page__panel';
-      
+
       // add the panel page machine name to the template suggestions
       $vars['theme_hook_suggestions'][] = 'page__' . $panel_page['name'];
-      
+
       //add a body class for good measure
       $body_classes[] = 'page-panel';
     }
-  }  
+      }
+  }
 
 
 
